@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    color: #333;
+    --type-first: Helvetica, Arial, sans-serif;
+    --type-second: 'Spectral', georgia;
+    font-family: var(--type-first);
+    padding-top: 4rem;
+}
+
+button, input {
+    display: block;
+    font-size: 1rem;
+    font-family: var(--type-first);
+    color: #333;
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
